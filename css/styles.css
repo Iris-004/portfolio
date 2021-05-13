@@ -1,0 +1,125 @@
+/* Global styles */
+body {
+    background-color:antiquewhite;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Section styles */
+header{
+    background-color: #e6c5b9;
+    padding:25px;
+}
+.projects{
+    background-color: white;
+    padding:35px 15px;
+}
+
+.about{
+    background-color: #555555;
+    padding:35px 15px;
+    color:white;
+}
+
+.photo{
+    border-radius:1000px;
+}
+
+footer {
+    background-color: antiquewhite;
+    padding:  50px 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Heading styles */
+h1{
+    color:white;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1em;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.35); /*text-shadow: x y blur rgba; */
+    margin: 15px 0 5px 0;
+    /*margin: top right bottom left; 
+    clockwise direction
+    short ver.- margin: top/bottom right/left */
+    text-transform: uppercase;
+}
+
+h2{
+    color: #222222;
+    font-size: 1.15em;
+    font-weight: 700px;
+    text-align: center;
+    margin: 5px 0 10px 0;
+}
+
+h3{
+    font-size: 1.4em;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.15em;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 1px 1px #333333;
+}
+
+
+/* Project tile styles */
+.projectT{
+    background-size: cover;   
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: overlay; /*blend color and bg together*/
+    margin: 12px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow:0 2px 5px darkgray; /*text-shadow: x y blur rgba; */
+    min-height: 100px;
+}
+
+.projectT:hover{
+    box-shadow: 2px;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+
+/* Button styles */
+.btn-primary {
+    color: white;
+    background: #333333;
+    border-radius: 50px;
+    border: none;
+    margin: 20px 0;
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none; /* no underlined style for the link*/
+    vertical-align: middle;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover{
+    color: black;
+    background: white;
+    text-decoration: none;
+    transform: scale(1.05);
+    transition: all 0.3s;
+   /* transition: whichproperty howLong */
+}
+
+/* Link styles */
+a {
+    color: #9a8983;
+    text-decoration: underline;
+}
+
+.projectT a{
+    text-decoration: none;
+}
